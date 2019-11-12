@@ -1,5 +1,35 @@
 @tailwind base;
 
+@font-face {
+	font-family: MontserratLight;
+	src: url(../fonts/Montserrat-Light.otf) format("woff");
+}
+@font-face {
+	font-family: MontserratRegular;
+	src: url(../fonts/Montserrat-Regular.otf) format("woff");
+}
+@font-face {
+	font-family: MontserratMedium;
+	src: url(../fonts/Montserrat-Medium.otf) format("woff");
+}
+@font-face {
+	font-family: MontserratSemibold;
+	src: url(../fonts/Montserrat-SemiBold.otf) format("woff");
+}
+
 @tailwind components;
 
 @tailwind utilities;
+
+.mont-light{
+	font-family: 'MontserratLight';
+}
+.mont-regular{
+	font-family: 'MontserratRegular';
+}
+.mont-medium{
+	font-family: 'MontserratMedium';
+}
+.mont-semibold{
+	font-family: 'MontserratSemibold';
+}
