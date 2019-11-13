@@ -33,3 +33,7 @@
 .mont-semibold{
 	font-family: 'MontserratSemibold';
 }
+
+.search-placeholder-color::placeholder{
+	color: #66615b;
+}
