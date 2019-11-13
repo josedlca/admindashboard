@@ -13,7 +13,14 @@
 				<a href="#" class=" mont-light text-brown-primary text-xl">Admin Dashboard Beta</a>
 			</div>
 			<div class=" w-2/5 flex flex-row">
-				<input type="text" aria-label="Search">
+				<div class="flex flex-row relative">
+					<input type="text" aria-label="Search" placeholder="Search...">
+					<div class="absolute">
+						<svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+							<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+						</svg>
+					</div>
+				</div>
 				<ul class="flex flex-row">
 					<li>icon 1</li>
 					<li>
